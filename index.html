@@ -13,12 +13,12 @@
 <div id="roadview"></div>
 <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=ff6872aee5694d86614ad4bcad7c4985"></script>
 <script>
-//var container = document.getElementById('map');
-//var options = {
-//center: new kakao.maps.LatLng(37.632311, 127.079430),
-//level: 3
-//};
-//var map = new kakao.maps.Map(container, options);
+var container = document.getElementById('map');
+var options = {
+center: new kakao.maps.LatLng(37.632311, 127.079430),
+level: 3
+};
+var map = new kakao.maps.Map(container, options);
 
 var roadviewContainer = document.getElementById('roadview');
 var roadview = new kakao.maps.Roadview(roadviewContainer);
